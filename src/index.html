@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вокзал Астана — расписание поездов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">ВОКЗАЛ · АСТАНА</div>
+    <nav class="nav">
+      <a href="#schedule">Расписание</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Ваш путь начинается здесь</h1>
+      <p class="lead">Онлайн-табло и расписание поездов пассажирского комплекса «Астана».</p>
+      <div class="board" id="board">
+        <div class="board-line">007 · Алматы — Астана · 14:20 · Платформа 3</div>
+        <div class="board-line">052 · Шымкент — Астана · 14:45 · Платформа 1</div>
+        <div class="board-line">023 · Актобе — Алматы · 15:10 · Платформа 2</div>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <h2>Ближайшие отправления</h2>
+      <table class="schedule">
+        <thead>
+          <tr><th>Поезд</th><th>Маршрут</th><th>Отправление</th><th>Платформа</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>007</td><td>Алматы — Астана</td><td>14:20</td><td>3</td></tr>
+          <tr><td>052</td><td>Шымкент — Астана</td><td>14:45</td><td>1</td></tr>
+          <tr><td>023</td><td>Актобе — Алматы</td><td>15:10</td><td>2</td></tr>
+          <tr><td>601</td><td>Астана — Караганда</td><td>15:35</td><td>5</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div>
+      <a href="mailto:t.kuandykov@vokzal.kz">t.kuandykov@vokzal.kz</a>
+    </div>
+    <div>Developed by toxabayev-dev</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
