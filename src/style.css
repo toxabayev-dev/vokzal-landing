@@ -121,3 +121,8 @@ body {
     margin: 0 16px 0 0;
   }
 }
+
+.board-line.is-active {
+  color: #fff3d4;
+  text-shadow: 0 0 8px rgba(255, 203, 107, 0.65);
+}
